@@ -66,7 +66,7 @@ window.addEventListener("DOMContentLoaded", () => {
       if(counter == 10){
           clearInterval(id);
           confirm.style.display = 'none';
-      }  
+      }     
       else{
           counter--;
           confirm.style.transform = `translateY(-${counter}px)`;
